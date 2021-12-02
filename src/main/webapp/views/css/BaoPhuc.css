@@ -1,0 +1,333 @@
+#container {
+    width: 100%;
+    background: #FFFFFF;
+}
+#header {
+    width: 95%;
+    height: 84px;
+    top: 10px;
+    background: #07184E;
+    border-radius: 30px 30px 0px 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+#header ul {
+    margin-top: 30px;
+}
+#header li {
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+#header li:hover{
+    color: #ed6a43;
+}
+#header i{
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#header div{
+    position: absolute;
+    width: 216px;
+    height: 58px;
+    left: 150px;
+    top: 17px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+#header span{
+    position: absolute;
+    width: 216px;
+    height: 58px;
+    top: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+#footer{
+    background: #07184E;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    align-items: flex-start;
+    height: 150px;
+    padding-left: 35px;
+    padding-right: 35px;
+    justify-content: space-around;
+    width: 95%;
+}
+#footer div{
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+#footer h1{
+    padding-left: 50px;
+    font-size: 20px;
+}
+#footer img{
+    padding-top: 25px;
+    /*justify-content: center;*/
+    position: relative;
+}
+.sdt-ip{
+    width: 90%;
+    height: 39px;
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-bottom: 30px;
+    background: #ABB1C7;
+    border-radius: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.otp{
+    width: 50%;
+    height: 300px;
+    /*margin-top: 50px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    background: #07184E;
+    border-radius: 10px;
+}
+.otp button{
+    width: 82px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 300px;
+    background: #000000;
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+.otp-header{
+    width: 160px;
+    height: 29px;
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-bottom: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.otp-tb{
+    width: 517px;
+    height: 95px;
+    margin-left: 75px;
+    margin-top: 20px;
+    padding-top: 25px;
+    background: #CBECFB;
+    border-radius: 10px;
+    align-content: center;
+    padding-left: 15px;
+    color: #1A5724;
+}
+.otp-input{
+    width: 220px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #A39292;
+    box-sizing: border-box;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    margin-top: 25px;
+    margin-left: 220px;
+    /*padding-left: 200px;*/
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center
+}
+
+/*Nhap lai mat khau*/
+
+.mk-header{
+    width: 300px;
+    height: 29px;
+    padding-top: 15px;
+    padding-left: 220px;
+    padding-bottom: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.mk-dki{
+    width: 354px;
+    height: 29px;
+    padding-left: 420px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.mk-dki a{
+    color: #FFFFFF;
+    text-decoration: none
+}
+.mk-dki a:hover{
+    color: hotpink;
+}
+.setnewpw button{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 285px;
+    background: #000000;
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+.setnewpw button:hover{
+    cursor: pointer;
+}
+.setnewpw{
+    width: 50%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background: #07184E;
+    border-radius: 10px;
+}
+.setpw-input{
+    width: 220px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #A39292;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 220px;
+    border-radius: 25px;
+    font-size: 15px;
+    text-align: center
+}
+/*Thong tin tai khoan*/
+.info-acc{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: 475px;
+    background: #CBECFB;
+    border-radius: 25px;
+}
+.info-acc-header{
+    width: 300px;
+    height: 100px;
+    margin-left: 170px;
+    /*margin-top: 100px;*/
+    padding-top: 15px;
+    background: #07184E;
+    border-radius: 20px;
+}
+.info-acc-header ul{
+}
+.info-acc-header li{
+    margin-top: 10px;
+    list-style: none;
+
+    margin-left: 15px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.info-money{
+    width: 220px;
+    height: 33px;
+    margin-top: 25px;
+    margin-left: 220px;
+    font-size: 20px;
+    text-align: center
+}
+.info-money input{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.info-money-date{
+    /*margin-bottom: 50px ;*/
+    width: 220px;
+    height: 33px;
+    font-size: 15px;
+}
+.info-money ul{
+    margin-top: 30px;
+}
+
+.info-money li {
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.info-acc-list{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+    /*width: 60%;*/
+    /*height: 100px;*/
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.info-acc-list h1{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.info-acc-list-div{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+.info-acc-list-div-header{
+    padding-left:  20px;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 23px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.info-acc-list-div-header-2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 23px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.info-acc-list-div-header-1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 23px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.info-acc-list i:hover{
+    color: crimson;
+    cursor: pointer;
+}

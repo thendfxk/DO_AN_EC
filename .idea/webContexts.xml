@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/main.tag" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/vwAccount/Login.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/vwAccount" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/vwAccount/Register.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/vwAccount" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/vwLogin/Dangki.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/vwLogin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/vwLogin/aaa.html" value="file://$PROJECT_DIR$/src/main/webapp/views/vwLogin" />
+      </map>
+    </option>
+  </component>
+</project>
